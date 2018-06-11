@@ -1,0 +1,143 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Cardo:400,400italic|Radley|Tangerine');
+*{
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	}
+body{
+	margin:0px auto;
+	padding:0;
+	width:600px;
+	vertical-align:baseline;
+	text-align:center;
+	font-family:'Tangerine', sans-serif;
+	font-weight:400;
+	background-color:gray;
+	}
+
+div{
+	position:relative;
+	z-index:2;
+}
+
+h2{
+	border-radius:150px;
+	-webkit-border-radius:150px;
+	-moz-border-radius:150px;
+	font-size:2.60em;
+	font-weight:bold;
+	opacity:0.5;
+	background-color:white;
+	}
+
+p{
+	padding:20px;
+	border-radius:15px;
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	font-size:2em;
+	font-weight:bold;
+	text-align:left;
+	text-indent:30px;
+	opacity:0.5;
+	background-color:white;
+}
+.quotes{
+	width:600px;
+	height:auto;
+	margin:0 auto;
+	padding:20px;
+	opacity:0.5;
+	background-color:white;
+	border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	font-size:2.5em;
+	font-weight:bold;
+}
+
+.author{
+	font-weight:bold;
+	font-style:italic;
+}
+.spot1{
+	padding-top:20px;
+	margin-left:10px;
+	font-size:60px;
+	line-height:0.6em;
+	opacity:0.5;
+}
+
+.spot2{
+	padding-top:5px; 
+		margin-left:200px; 
+		font-size:60px;
+		line-height:0.6em; 
+		opacity:0.5;
+}
+a#tweet-quote{
+	width:50px;
+	height:40px;
+	padding:6px 8px 6px 8px;
+	
+	bottom:0;
+	left:0;
+	position:relative;
+	display:block;
+	margin-left:10px;
+	margin-bottom:20px;
+	border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	 box-shadow: -5px 9px 14px;
+	-webkit-box-shadow: -5px 9px 14px;
+	-moz-box-shadow: -5px 9px 14px;
+}
+
+i.tweet{
+	font-size:30px;
+	padding-bottom:10px;
+	position:absolute;
+	padding-left:5px;
+	padding-right:0px;
+	display:block;
+	opacity:0.8;
+}
+
+#renk{
+	width:150px;
+	height:50px;
+	margin-left:360px;
+	margin-top:30px;
+	padding:0px;
+	border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	 box-shadow: -5px 5px 10px;
+	-webkit-box-shadow: -5px 5px 10px;
+	-moz-box-shadow: -5px 5px 10px;
+	opacity:1;
+	outline-color:transparent;
+	font-weight:bold;
+	font-size:36px;
+}
+
+.footer, a.icon{
+	height:auto;
+	border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	outline-color:transparent;
+	font-size:30px;
+	font-weight:bold;
+	text-indent:30px;
+}
+
+a.icon:hover{
+	background-color:white;
+	color:white;
+	opacity:0.5;
+	text-decoration:none;
+}
+
